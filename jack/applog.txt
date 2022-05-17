@@ -1,9 +1,0 @@
-INFO    2022-05-05 14:16:49,707 [main] jack.Sparrow  - this is a message....:welcome to sonar
-WARN    2022-05-05 14:16:49,708 [main] jack.Sparrow  - warning message...:welcome to sonar
-ERROR   2022-05-05 14:16:49,708 [main] jack.Sparrow  - error message...:welcome to sonar
-INFO    2022-05-05 14:28:09,660 [main] jack.Sparrow  - this is a message....:welcome to sonar
-WARN    2022-05-05 14:28:09,662 [main] jack.Sparrow  - warning message...:welcome to sonar
-ERROR   2022-05-05 14:28:09,662 [main] jack.Sparrow  - error message...:welcome to sonar
-INFO    2022-05-05 14:28:17,821 [main] jack.Sparrow  - this is a message....:welcome to sonar
-WARN    2022-05-05 14:28:17,822 [main] jack.Sparrow  - warning message...:welcome to sonar
-ERROR   2022-05-05 14:28:17,823 [main] jack.Sparrow  - error message...:welcome to sonar
