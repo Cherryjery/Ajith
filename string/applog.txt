@@ -1,0 +1,105 @@
+INFO    2022-05-12 10:10:16,892 [main] anoundtech.Addition  - 100 200
+INFO    2022-05-12 10:13:09,134 [main] anoundtech.Addition  - 100 200
+INFO    2022-05-12 10:13:09,136 [main] anoundtech.Addition  - this is the final answer :300
+INFO    2022-05-12 10:27:19,497 [main] anoundtech.PrintInteger  - java.util.Scanner[delimiters=\p{javaWhitespace}+][position=0][match valid=false][need input=false][source closed=false][skipped=false][group separator=\x{2c}][decimal separator=\x{2e}][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+INFO    2022-05-12 10:32:39,927 [main] anoundtech.PrintInteger  - enter your name 
+INFO    2022-05-12 10:32:50,907 [main] anoundtech.PrintInteger  - enter your age
+INFO    2022-05-12 10:37:54,235 [main] anoundtech.PrintInteger  - enter your name : welcome
+INFO    2022-05-12 10:41:33,177 [main] anoundtech.PrintInteger  - enter your name : 
+INFO    2022-05-12 10:41:47,103 [main] anoundtech.PrintInteger  - Welcome : Ajith
+INFO    2022-05-12 10:41:47,103 [main] anoundtech.PrintInteger  - Please enter any number 
+INFO    2022-05-12 10:41:52,063 [main] anoundtech.PrintInteger  - enter your age
+INFO    2022-05-12 10:42:03,735 [main] anoundtech.PrintInteger  - 
+INFO    2022-05-12 10:43:01,193 [main] anoundtech.PrintInteger  - enter your name : 
+INFO    2022-05-12 10:44:10,731 [main] anoundtech.PrintInteger  - enter your name : 
+INFO    2022-05-12 10:44:30,086 [main] anoundtech.PrintInteger  - Welcome : Ajithkumar
+INFO    2022-05-12 10:44:30,086 [main] anoundtech.PrintInteger  - Please enter any number 
+INFO    2022-05-12 10:44:35,549 [main] anoundtech.PrintInteger  - enter your age
+INFO    2022-05-12 10:44:38,013 [main] anoundtech.PrintInteger  - thank you
+INFO    2022-05-12 11:24:53,297 [main] anoundtech.PrintInteger  - enter your name : 
+INFO    2022-05-12 11:25:03,836 [main] anoundtech.PrintInteger  - Welcome : akash
+INFO    2022-05-12 11:25:03,836 [main] anoundtech.PrintInteger  - Please enter any number 
+INFO    2022-05-12 11:25:10,324 [main] anoundtech.PrintInteger  - enter your age
+INFO    2022-05-12 11:25:13,901 [main] anoundtech.PrintInteger  - thank you
+INFO    2022-05-12 14:15:58,807 [main] anoundtech.MultiplyValue  - enter the number of a : 
+INFO    2022-05-12 14:16:07,237 [main] anoundtech.MultiplyValue  - enter the number of b : 
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - 200
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - 30
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - -10
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - 0
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - 10
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - a is lesser then b
+INFO    2022-05-12 14:16:09,678 [main] anoundtech.MultiplyValue  - What we need to do
+INFO    2022-05-12 14:56:44,984 [main] anoundtech.QuotientReminder  - 6This is the value of QUOTIENT
+INFO    2022-05-12 14:56:44,986 [main] anoundtech.QuotientReminder  - 0This is the value of REMINDER
+INFO    2022-05-12 14:57:07,106 [main] anoundtech.QuotientReminder  - 6 This is the value of QUOTIENT
+INFO    2022-05-12 14:57:07,108 [main] anoundtech.QuotientReminder  - 0 This is the value of REMINDER
+INFO    2022-05-12 15:54:25,055 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 15:54:40,436 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:08:31,848 [main] anoundtech.VowelDemo  - Enter the letter :a
+INFO    2022-05-12 16:08:31,850 [main] anoundtech.VowelDemo  - this is not a vowela
+INFO    2022-05-12 16:09:59,603 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:09:59,605 [main] anoundtech.VowelDemo  - this is not a vowel
+INFO    2022-05-12 16:26:43,347 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:28:10,069 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:29:03,986 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:30:48,256 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:30:54,655 [main] anoundtech.VowelDemo  - this is a vowel
+INFO    2022-05-12 16:30:59,796 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:31:06,750 [main] anoundtech.VowelDemo  - this is a vowel
+INFO    2022-05-12 16:32:26,635 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:32:33,399 [main] anoundtech.VowelDemo  - this is a vowela
+INFO    2022-05-12 16:33:26,777 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:33:31,424 [main] anoundtech.VowelDemo  - this is not a vowel
+INFO    2022-05-12 16:33:42,191 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:33:47,664 [main] anoundtech.VowelDemo  - this is not a vowel
+INFO    2022-05-12 16:34:55,426 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:34:59,601 [main] anoundtech.VowelDemo  - this is a voweli
+INFO    2022-05-12 16:35:28,208 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:35:28,209 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:35:37,338 [main] anoundtech.VowelDemo  - this is a vowel.......i
+INFO    2022-05-12 16:44:05,507 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:44:10,654 [main] anoundtech.VowelDemo  - this is not a vowel
+INFO    2022-05-12 16:48:35,412 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:48:42,009 [main] anoundtech.VowelDemo  - this is a voweli
+INFO    2022-05-12 16:48:54,955 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:48:58,913 [main] anoundtech.VowelDemo  - this is a voweli
+INFO    2022-05-12 16:52:44,255 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:52:50,713 [main] anoundtech.VowelDemo  - this is a vowela
+INFO    2022-05-12 16:52:59,333 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:53:04,472 [main] anoundtech.VowelDemo  - this is not a vowel
+INFO    2022-05-12 16:53:25,863 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:53:29,737 [main] anoundtech.VowelDemo  - this is a vowel
+INFO    2022-05-12 16:57:00,320 [main] anoundtech.VowelDemo  - Enter the letter :
+INFO    2022-05-12 16:57:07,115 [main] anoundtech.VowelDemo  - this is a voweli
+INFO    2022-05-12 17:49:19,813 [main] anoundtech.FindLargest  - 22.5Is the Largest number
+INFO    2022-05-12 17:49:39,421 [main] anoundtech.FindLargest  - 22.5 Is the Largest number
+INFO    2022-05-13 09:44:07,374 [main] anoundtech.FindLargest  - 22.5 Is the Largest number
+INFO    2022-05-13 10:14:01,387 [main] anoundtech.SwapTwoNumber  - Enter the First number
+INFO    2022-05-13 10:14:09,525 [main] anoundtech.SwapTwoNumber  - Enter the Second number
+INFO    2022-05-13 10:14:15,676 [main] anoundtech.SwapTwoNumber  - Before Swap
+INFO    2022-05-13 10:14:15,678 [main] anoundtech.SwapTwoNumber  - first number :22.5
+INFO    2022-05-13 10:14:15,678 [main] anoundtech.SwapTwoNumber  - second number :55.2
+INFO    2022-05-13 10:15:48,810 [main] anoundtech.SwapTwoNumber  - Enter the First number
+INFO    2022-05-13 10:15:53,471 [main] anoundtech.SwapTwoNumber  - Enter the Second number
+INFO    2022-05-13 10:15:55,956 [main] anoundtech.SwapTwoNumber  - Before Swap
+INFO    2022-05-13 10:15:55,957 [main] anoundtech.SwapTwoNumber  - first number :3.5
+INFO    2022-05-13 10:15:55,957 [main] anoundtech.SwapTwoNumber  - second number :6.3
+INFO    2022-05-13 10:15:55,957 [main] anoundtech.SwapTwoNumber  - After Swap
+INFO    2022-05-13 10:15:55,958 [main] anoundtech.SwapTwoNumber  - first number :6.3
+INFO    2022-05-13 10:15:55,958 [main] anoundtech.SwapTwoNumber  - second number :3.5
+INFO    2022-05-13 11:43:52,993 [main] anoundtech.OddEven  - Enter the number
+INFO    2022-05-13 11:59:20,285 [main] anoundtech.OddEven  - Enter the number
+INFO    2022-05-13 11:59:30,628 [main] anoundtech.OddEven  - Enter number is even :  2
+INFO    2022-05-13 11:59:48,716 [main] anoundtech.OddEven  - Enter the number
+INFO    2022-05-13 11:59:53,349 [main] anoundtech.OddEven  - Entered number is even :  0
+INFO    2022-05-13 12:00:19,014 [main] anoundtech.OddEven  - Enter the number
+INFO    2022-05-13 12:00:21,453 [main] anoundtech.OddEven  - Entered number is Odd : 3
+INFO    2022-05-16 17:10:34,054 [main] anoundtech.SwapTwoNumber  - Enter the First number
+INFO    2022-05-16 17:12:27,992 [main] anoundtech.SwapTwoNumber  - Enter the Second number
+INFO    2022-05-16 17:12:33,966 [main] anoundtech.SwapTwoNumber  - Before Swap
+INFO    2022-05-16 17:12:33,967 [main] anoundtech.SwapTwoNumber  - first number :6.0
+INFO    2022-05-16 17:12:33,967 [main] anoundtech.SwapTwoNumber  - second number :6.0
+INFO    2022-05-16 17:12:33,967 [main] anoundtech.SwapTwoNumber  - After Swap
+INFO    2022-05-16 17:12:33,968 [main] anoundtech.SwapTwoNumber  - first number :6.0
+INFO    2022-05-16 17:12:33,968 [main] anoundtech.SwapTwoNumber  - second number :6.0
