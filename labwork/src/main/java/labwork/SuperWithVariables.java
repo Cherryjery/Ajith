@@ -13,7 +13,7 @@ class VarTop{
 class VarMed extends VarTop{
 	int top=20;
 }
-class VarBot extends VarMed{
+class VarBot extends VarTop{
 	int top=10;
 	public void met() {
 		System.out.println("Local...:"+top);
