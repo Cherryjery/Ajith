@@ -12,6 +12,7 @@ public class InterThreadCommunication {
 					bofors.load();
 				}
 			});
+			
 			es.execute(()->{
 				for(int i=0;i<5;i++) {
 					bofors.shoot();
@@ -21,18 +22,18 @@ public class InterThreadCommunication {
 		}
 	}
 	class Gun{
-		boolean flag;
+		boolean flag ;
 		synchronized public void load() {
 			if(flag) {
-				try {wait();}catch(Exception e) {}
+			try {wait();}catch(Exception e) {}
 			}
 			System.out.println("loader loads the gun...........");
-			flag=true;
+		flag=true;
 			notify();
 		}
 		synchronized public void shoot() {
 			if(!flag) {
-				try {wait();}catch(Exception e) {}
+			try {wait();}catch(Exception e) {}
 			}
 			System.out.println("Shooter shoots...the gun...........");
 			flag=false;
