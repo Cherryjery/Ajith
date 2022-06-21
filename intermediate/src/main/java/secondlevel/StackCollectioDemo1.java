@@ -21,10 +21,34 @@ public class StackCollectioDemo1 {
 	        }
 	    }
 	
-	
+	  static void stack_peek(Stack<Integer> stack)
+		{
+			Integer element = (Integer) stack.peek();
+			System.out.println("Element on stack top: " + element);
+		}
+		
+		// Searching element in the stack
+		static void stack_search(Stack<Integer> stack, int element)
+		{
+			Integer pos = (Integer) stack.search(element);
+
+			if(pos == -1)
+				System.out.println("Element not found");
+			else
+				System.out.println("Element is found at position: " + pos);
+		}
+
+
 
 	public static void main(String[] args) {
 		Stack <Integer> stack = new Stack ();
+
+		stack_push(stack);
+		stack_pop(stack);
+		stack_push(stack);
+		stack_peek(stack);
+		stack_search(stack, 2);
+		stack_search(stack, 6);
 		
 	}
 

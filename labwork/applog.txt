@@ -1,2 +1,1 @@
-INFO    2022-05-20 10:04:20,643 [main] labwork.Addition  - 100 200
-INFO    2022-05-20 10:04:20,644 [main] labwork.Addition  - The sum is: 300
+abcdefg
