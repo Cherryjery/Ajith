@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 public class FileDemo {
 	public static void main(String[] args) {
 		try {
-			FileInputStream fis=new FileInputStream("applogg.txt");
+			FileInputStream fis=new FileInputStream("file.txt");
 			System.out.println(fis.available());
 //			System.out.println((char)fis.read());
 //			System.out.println((char)fis.read());
