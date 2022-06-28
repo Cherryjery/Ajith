@@ -12,6 +12,7 @@ public class JDBCDemo8 {
 		Connection con=DriverManager.getConnection
 				("jdbc:mysql://localhost:3306/anound","root","root");
 		
+		
 		System.out.println(con);
 		//Step 3 - Execute sql statement
 		
