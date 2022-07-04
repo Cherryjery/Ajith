@@ -7,15 +7,12 @@ public class ClassDemo1
 		
 		
 		Bank input = new Bank ();
+		
+		System.out.println(input.depositCash(1200));
 		System.out.println(input.getName());
-		
-		input.depositCash(999);
-		
-			}
-	
+	}
 }
-
-		class Bank 
+class Bank 
 		{
 			
 			boolean depositCash(int amt)
@@ -33,7 +30,7 @@ public class ClassDemo1
 				}
 			}
 			String getName() {
-				return  ;	
+				return "ram";
 			}
 		}
 
