@@ -8,7 +8,7 @@ public class JDBCDemo1 {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		//Step 2 - Establish Connection
 		Connection con=DriverManager.getConnection
-				("jdbc:mysql://localhost:3306/anound","root","beetroot@007");
+				("jdbc:mysql://localhost:3306/demoemp","root","beetroot@007");
 		
 		System.out.println(con);
 		//Step 3 - Execute sql statement
