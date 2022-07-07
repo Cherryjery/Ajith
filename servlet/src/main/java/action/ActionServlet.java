@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
@@ -13,23 +14,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-//@WebServlet("/ajith")
-@WebServlet(
-	//	urlPatterns = "*.do",
-		initParams = {
-				@WebInitParam(name="driver",value="my sql driver...."),
-				@WebInitParam(name="driver2",value="my sql driver urlllllll....")
-				}
-	)
+@WebServlet("/ajith")
+//@WebServlet(
+//	//	urlPatterns = "*.do",
+//		initParams = {
+//				@WebInitParam(name="driver",value="my sql driver...."),
+//				@WebInitParam(name="driver2",value="my sql driver urlllllll....")
+//				}
+//	)
+
 
 public class ActionServlet extends HttpServlet {
 	@Override
 	public void init(ServletConfig config) throws ServletException {
-		System.out.println("init called ");
+		System.out.println("init called.....");
 		String mydrivervalue=config.getInitParameter("driver");
 		System.out.println(mydrivervalue);
-		System.out.println(config.getInitParameter("driver2"));
-	
+		System.out.println(config.getInitParameter("url"));
+		ServletContext application=config.getServletContext();
+		application.setAttribute("myglobal","sun.....");
 	}
     
 	
