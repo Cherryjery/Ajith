@@ -12,7 +12,7 @@
 <hr>
 <h1>Welcome To Food Place.........</h1>
 <hr>
-<jsp:include page="food.jsp" />
+<jsp:include page="food1shop.jsp" />
 <hr>
 </body>
 </html>

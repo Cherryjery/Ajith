@@ -6,11 +6,12 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body><center>
+<body bgcolor = "pink" ><center>
+
 <h1>Ajith Food Shop</h1>
-<form action="purchase.do" method="post">
-<input type="hidden" name="action" value="purchase">
-<input type="hidden" name="shop" value="Food place">
+<form action="shopping.do" method="post">
+<input type="hidden" name="action" value="shopping">
+<input type="hidden" name="nextshop" value="food2">
 <input type="radio" name="idly" value="rs5">Idly
 <input type="radio" name="dosa" value="rs30">Dosa
 <input type="radio" name="briyani" value="rs120">Briyani
@@ -18,4 +19,4 @@
 </form>
 </center>
 </body>
-</html>
+</html>	
