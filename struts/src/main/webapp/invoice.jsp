@@ -18,7 +18,7 @@
 	}else{
 		  out.println("<h1>"+name +":"+ value +"</h1>");
 	}
-	 
+	 	
 	
 }
 

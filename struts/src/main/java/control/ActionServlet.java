@@ -36,7 +36,7 @@ public class ActionServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session=request.getSession();
-		session.setMaxInactiveInterval(3);
+		session.setMaxInactiveInterval(30);
            rp.process(request,response);
 		
 	}
