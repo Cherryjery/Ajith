@@ -48,6 +48,8 @@ class AdiPizaa extends Dominos{
 	System.out.println("pizaaa deliveryed");
 		
 	}
+	
+	
 }
 
 
