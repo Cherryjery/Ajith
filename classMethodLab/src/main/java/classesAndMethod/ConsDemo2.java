@@ -3,14 +3,14 @@ package classesAndMethod;
 public class ConsDemo2 {
 
 	public static void main(String[] args) {
-	
-		School.CreateSchool();
+	 
+	School	school=new School();
 
 	}
 
 }
 class School {
-	private School() {
+	School() {
 		
 	}
 
