@@ -21,7 +21,7 @@ interface ItemElement {
 	public int accept(ShoppingCartVisitor visitor);
 }
 class ShoppingCartVisitorImpl implements ShoppingCartVisitor {
-	@Override
+
 	public int visit(Book book) {
 		int cost=0;
 		//apply 5$ discount if book price is greater than 50
@@ -32,7 +32,7 @@ class ShoppingCartVisitorImpl implements ShoppingCartVisitor {
 		return cost;
 	}
 	
-	@Override
+
 	public int visit(Fruit fruit) {
 		int cost = fruit.getPricePerKg()*fruit.getWeight();
 		System.out.println(fruit.getName() + " cost = "+cost);
@@ -65,7 +65,7 @@ class Fruit implements ItemElement {
 		return this.name;
 	}
 	
-	@Override
+
 	public int accept(ShoppingCartVisitor visitor) {
 		return visitor.visit(this);
 	}
@@ -85,7 +85,7 @@ class Book implements ItemElement {
 	public String getIsbnNumber() {
 		return isbnNumber;
 	}
-	@Override
+	
 	public int accept(ShoppingCartVisitor visitor) {
 		return visitor.visit(this);
 	}
