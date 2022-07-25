@@ -12,9 +12,9 @@ public static void main(String[] args) {
 class Computer1{
 	public String HDD;
 
-	public Computer1 aji(String s) {
-		this.HDD=s;
-		return this;
+	public Computer1 aji(boolean s) {
+		
+		return true ;
 	}
 	public void adi() {
 		
