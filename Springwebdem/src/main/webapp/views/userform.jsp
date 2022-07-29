@@ -1,4 +1,4 @@
-<%@ taglib uri = "http://www.springframework.org/tags/form" prefix = "form"%>
+%P><%@ taglib uri = "http://www.springframework.org/tags/form" prefix = "form"%>
 <form:form action = "/form1/register" method = "POST" modelAttribute="userObj">
 
 Username:<form:input path="uname"/><br>
