@@ -16,13 +16,13 @@ public class FormController1 {
 	@RequestMapping(method = RequestMethod.GET, value ="/register")
 	public ModelAndView loadForm() {
 		ModelAndView mandv = new ModelAndView();
-		mandv.addObject("userObj",new User());
+		mandv.addObject("userObj",new Userss());
 		mandv.setViewName("userform");
 		return mandv;
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/register")
-	public ModelAndView processForm(@Valid @ModelAttribute("userObj") User user,BindingResult result) {
+	public ModelAndView processForm(@Valid @ModelAttribute("userObj") Userss user,BindingResult result) {
 		ModelAndView mandv=new ModelAndView();
 		
 		if(result.hasErrors()) {

@@ -2,7 +2,7 @@ package mycontroller;
 
 import javax.validation.constraints.Size;
 
-public class User {
+public class Userss {
 @Size(min=5,max = 15)	
 private String uname;
 private String upass,phone,email;
