@@ -32,7 +32,34 @@ package classesAndMethod;
 		
 	}
 	class Customer{
-		String name;
+		Str
+		
+		.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		ing name;
 		public Customer(String name) {
 			this.name=name;
 		}

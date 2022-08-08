@@ -14,6 +14,6 @@ class Bank2{
 	
 	
 	String getName(String s) {
-		 return this; 
+		 return s; 
 		 } 
 }
