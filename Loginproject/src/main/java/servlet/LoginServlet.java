@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("*.do")
 public class LoginServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	
 	
 	@Override
 	public void init() throws ServletException {
@@ -49,6 +49,7 @@ public class LoginServlet extends HttpServlet {
 				PreparedStatement ps = con.prepareStatement("select uname from login where uname=? and password=?");
 				ps.setString(1, n);
 				ps.setString(2, p);
+				
 			ResultSet rs=	ps.executeQuery();
 			if (rs.next()) {
 				RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
